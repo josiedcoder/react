@@ -55,7 +55,10 @@ const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [locationName, setLocationName] = useState("");
-  const [cordinate, setCordinate] = useState({ latitude: 1, longitude: 1 });
+  const [cordinate, setCordinate] = useState({
+    latitude: 55.3781,
+    longitude: 3.436,
+  });
   const [modalIsOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [successMessage, setSuccessMessage] = useState(false);

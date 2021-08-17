@@ -12,6 +12,8 @@ import Pin from "../components/Pin";
 
 const SimpleMap = (props) => {
   const [viewport, setViewport] = useState({
+    width: "100",
+    height: "400",
     latitude: props.latitude,
     longitude: props.longitude,
     zoom: 3.5,
